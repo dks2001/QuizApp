@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/purple_200"
+        android:gravity="center|center_horizontal"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <ProgressBar
+        android:id="@+id/quizProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/quizStatus"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center|center_horizontal"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/trueButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="true button"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/wrongButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="wrong button"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <string name="correct_text">Correct!</string>
+    <string name="incorrect_text">Incorrect!</string>
+    <string name="first_score_txt">0/10</string>
+    <string name="correct_toast_message">Great!</string>
+    <string name="Incorrect_toast_message">Not good!</string>
+
+    <string name="q1">A  honey bee can fly at 15mph.</string>
+    <string name="q2">A snail can sleep for three years at a time.</string>
+    <string name="q3">There are 1 million ants for every human in the world.</string>
+    <string name="q4"> A bat can eat up to 1 thousand insects per hour.</string>
+    <string name="q5"> Octopuses have three hearts.</string>
+    <string name="q6"> Wild dolphins call each other by name. “Oi, Flipper!”</string>
+    <string name="q7"> Elephants have a specific alarm call that means “human”.</string>
+    <string name="q8">Polar bears have black skin and see-through fur.</string>
+    <string name="q9"> Honeybees can flap their wings 200 times per second.</string>
+    <string name="q10"> A sea lion is the first nonhuman mammal with a proven ability to keep a beat.</string>
+
+</resources>
